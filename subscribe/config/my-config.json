@@ -1,20 +1,29 @@
 {
   "delay": 9000,
-  "domains": [],
+  "domains": [
+      { "name": "cn-news", "sub": ["https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml"], "include": "香港|日本|台湾|新加坡|美国|韩国", "exclude": "", "rename": "", "domain": "", "enable": true, "ignorede": true, "liveness": true, "rate": 2.5, "count": 2, "coupon": "", "secure": false, "renew": { "account": [], "plan_id": 3, "package": "", "method": 1, "coupon_code": "" }, "push_to": ["free"] },
+      { "name": "free-clash-subscribe", "sub": ["https://raw.githubusercontent.com/marshall888666/free_clash_subscribe/main/subscribe/clash.yml"], "include": "", "exclude": "", "rename": "", "domain": "", "enable": true, "ignorede": true, "liveness": true, "rate": 2.5, "count": 2, "coupon": "", "secure": false, "renew": { "account": [], "plan_id": 3, "package": "", "method": 1, "coupon_code": "" }, "push_to": ["free"] }
+    ],
   "crawl": {
     "enable": true,
     "threshold": 5,
     "singlelink": true,
     "persist": { "subs": "crawledsubs", "proxies": "crawledproxies" },
     "config": { "rename": "", "include": "", "exclude": "" },
-    "telegram": { "enable": true, "pages": 5, "exclude": "", "users": {} },
+    "telegram": { "enable": true, "pages": 5, "exclude": "", "users": { "freevpntg": { "include": "", "exclude": "", "config": { "rename": "" }, "push_to": ["free"] }, "clashsub": { "include": "", "exclude": "", "config": { "rename": "" }, "push_to": ["free"] }, "TheFreest": { "include": "", "exclude": "", "config": { "rename": "" }, "push_to": ["free"] }, "shoubai2021": { "include": "", "exclude": "", "config": { "rename": "" }, "push_to": ["free"] } } },
     "google": { "enable": false },
     "yandex": { "enable": false },
     "github": { "enable": true, "pages": 10, "push_to": ["free"], "exclude": "", "spams": [] },
     "twitter": { "enable": false, "users": {} },
-    "repositories": [],
-    "pages": [],
-    "scripts": []
+    "repositories": [
+      { "enable": true, "username": "mahdibland", "repo_name": "V2RayAggregator", "commits": 5, "exclude": "", "push_to": ["free"] },
+      { "enable": true, "username": "ermaozi", "repo_name": "get_subscribe", "commits": 5, "exclude": "", "push_to": ["free"] },
+      { "enable": true, "username": "mfuu", "repo_name": "v2ray", "commits": 5, "exclude": "", "push_to": ["free"] },
+      { "enable": true, "username": "freessshare", "repo_name": "freessshare", "commits": 5, "exclude": "", "push_to": ["free"] }
+    ],
+    "pages": [
+      { "enable": true, "url": "https://clashsub.net/free-subscribe/", "multiple": false, "include": "", "exclude": "", "config": { "rename": "" }, "push_to": ["free"] }
+    ],
   },
   "groups": {
     "free": {
