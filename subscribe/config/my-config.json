@@ -1,0 +1,36 @@
+{
+  "delay": 5000,
+  "domains": [],
+  "crawl": {
+    "enable": true,
+    "threshold": 5,
+    "singlelink": true,
+    "persist": { "subs": "crawledsubs", "proxies": "crawledproxies" },
+    "config": { "rename": "", "include": "", "exclude": "" },
+    "telegram": { "enable": true, "pages": 5, "exclude": "", "users": {} },
+    "google": { "enable": false },
+    "yandex": { "enable": false },
+    "github": { "enable": true, "pages": 2, "push_to": ["free"], "exclude": "", "spams": [] },
+    "twitter": { "enable": false, "users": {} },
+    "repositories": [],
+    "pages": [],
+    "scripts": []
+  },
+  "groups": {
+    "free": {
+      "emoji": true,
+      "list": true,
+      "targets": { "clash": "free-clash" },
+      "regularize": { "enable": false, "locate": true, "residential": true, "bits": 2 }
+    }
+  },
+  "storage": {
+    "engine": "gist",
+    "items": {
+      "free-clash": { "username": "Mashed-P0TAT0", "gistid": "b7a8dc969b70fe0ba16666da7a78f9aa", "filename": "clash.yaml" },
+      "crawledsubs": { "username": "Mashed-P0TAT0", "gistid": "b7a8dc969b70fe0ba16666da7a78f9aa", "filename": "crawled-subs.txt" },
+      "crawledproxies": { "username": "Mashed-P0TAT0", "gistid": "b7a8dc969b70fe0ba16666da7a78f9aa", "filename": "crawled-proxies.txt" }
+    }
+  },
+  "update": null
+}
