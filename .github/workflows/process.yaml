@@ -15,6 +15,9 @@ env:
   # token
   PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
 
+  # github api token for crawling
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
   # network reachable
   REACHABLE: ${{ vars.REACHABLE }}
 
