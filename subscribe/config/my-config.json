@@ -10,7 +10,7 @@
     "telegram": { "enable": true, "pages": 5, "exclude": "", "users": {} },
     "google": { "enable": false },
     "yandex": { "enable": false },
-    "github": { "enable": true, "pages": 2, "push_to": ["free"], "exclude": "", "spams": [] },
+    "github": { "enable": true, "pages": 10, "push_to": ["free"], "exclude": "", "spams": [] },
     "twitter": { "enable": false, "users": {} },
     "repositories": [],
     "pages": [],
@@ -19,7 +19,7 @@
   "groups": {
     "free": {
       "emoji": true,
-      "list": true,
+      "list": false,
       "targets": { "clash": "free-clash" },
       "regularize": { "enable": false, "locate": true, "residential": true, "bits": 2 }
     }
