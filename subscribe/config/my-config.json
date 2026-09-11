@@ -1,5 +1,5 @@
 {
-  "delay": 9000,
+  "delay": 4000,
   "domains": [
     { "name": "cn-news", "sub": ["https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml"], "include": "", "exclude": "", "rename": "", "domain": "", "enable": true, "ignorede": true, "liveness": true, "rate": 2.5, "count": 2, "coupon": "", "secure": false, "renew": { "account": [], "plan_id": 3, "package": "", "method": 1, "coupon_code": "" }, "push_to": ["free"] },
     { "name": "free-clash-subscribe", "sub": ["https://raw.githubusercontent.com/marshall888666/free_clash_subscribe/main/subscribe/clash.yml"], "include": "", "exclude": "", "rename": "", "domain": "", "enable": true, "ignorede": true, "liveness": true, "rate": 2.5, "count": 2, "coupon": "", "secure": false, "renew": { "account": [], "plan_id": 3, "package": "", "method": 1, "coupon_code": "" }, "push_to": ["free"] },
