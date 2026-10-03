@@ -523,6 +523,35 @@
         "method": 1,
         "coupon_code": ""
       }
+    },
+    {
+      "name": "mahdibland-merge",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 1,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
     }
   ],
   "crawl": {
@@ -701,7 +730,7 @@
       }
     }
   },
-    "storage": {
+  "storage": {
     "engine": "gist",
     "base": "",
     "domain": "",
