@@ -1,0 +1,718 @@
+{
+  "sites": [
+    {
+      "name": "cn-news",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/hello-world-1989/cn-news/main/clash.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "free-clash-subscribe",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/marshall888666/free_clash_subscribe/main/subscribe/clash.yml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "ermaozi",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "mfuu",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/mfuu/v2ray/main/sub.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "wenxig",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/wenxig/free-nodes-sub/main/data/sub.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "gxyandy",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/gxyandy/FreeProxiesSubscribeForClash/main/tosslk/tosslk"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "xfx",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=0d5306ab80abb3f2012edf9169f5f00a",
+          "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=4a4d0189598386f07fd07b758caf07a8",
+          "http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=b96bab593efe4ceb68ae69e153ab8a49"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "xituimao",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/xituimao/spider-clash/main/output/clash.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "oversizexl",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/oversizexl/FreeSubsCheck/main/mihomo.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "chengaopan",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/main/list.yml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "barabama",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "leilaomi",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/verified.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "yuan2pro",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/yuan2pro/sub_merge/main/sub/merged_proxies_1.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "mahan",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix_sub.txt"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "free18",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/free18/v2ray/main/c.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "nomorewalls",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "shaoyouvip",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/shaoyouvip/free/main/mihomo.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    },
+    {
+      "name": "au1rxx",
+      "enable": true,
+      "domain": "",
+      "nodes": {
+        "subscribe": [
+          "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
+        ]
+      },
+      "push_to": [
+        "free"
+      ],
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "require_tls": false,
+      "count": 2,
+      "coupon": "",
+      "renew": {
+        "accounts": [],
+        "plan_id": 3,
+        "package": "",
+        "method": 1,
+        "coupon_code": ""
+      }
+    }
+  ],
+  "crawl": {
+    "enable": true,
+    "exclude": "",
+    "max_fails": 5,
+    "include_nodes": true,
+    "persist": {
+      "subscribe": "crawledsubs",
+      "nodes": "crawledproxies"
+    },
+    "task": {
+      "rename": "",
+      "include": "",
+      "exclude": ""
+    },
+    "github": {
+      "enable": true,
+      "pages": 10,
+      "push_to": [
+        "free"
+      ],
+      "exclude": "",
+      "exclude_repos": []
+    },
+    "telegram": {
+      "enable": true,
+      "pages": 5,
+      "exclude": "",
+      "channels": {
+        "freevpntg": {
+          "enable": true,
+          "task": {
+            "rename": "",
+            "include": "",
+            "exclude": "",
+            "push_to": [
+              "free"
+            ]
+          }
+        },
+        "clashsub": {
+          "enable": true,
+          "task": {
+            "rename": "",
+            "include": "",
+            "exclude": "",
+            "push_to": [
+              "free"
+            ]
+          }
+        },
+        "TheFreest": {
+          "enable": true,
+          "task": {
+            "rename": "",
+            "include": "",
+            "exclude": "",
+            "push_to": [
+              "free"
+            ]
+          }
+        },
+        "shoubai2021": {
+          "enable": true,
+          "task": {
+            "rename": "",
+            "include": "",
+            "exclude": "",
+            "push_to": [
+              "free"
+            ]
+          }
+        }
+      }
+    },
+    "repositories": [
+      {
+        "enable": true,
+        "username": "mahdibland",
+        "repo": "V2RayAggregator",
+        "commits": 5,
+        "exclude": "",
+        "push_to": [
+          "free"
+        ]
+      },
+      {
+        "enable": true,
+        "username": "ermaozi",
+        "repo": "get_subscribe",
+        "commits": 5,
+        "exclude": "",
+        "push_to": [
+          "free"
+        ]
+      },
+      {
+        "enable": true,
+        "username": "mfuu",
+        "repo": "v2ray",
+        "commits": 5,
+        "exclude": "",
+        "push_to": [
+          "free"
+        ]
+      },
+      {
+        "enable": true,
+        "username": "freessshare",
+        "repo": "freessshare",
+        "commits": 5,
+        "exclude": "",
+        "push_to": [
+          "free"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "enable": true,
+        "url": "https://clashsub.net/free-subscribe/",
+        "include": "",
+        "exclude": "",
+        "paged": true,
+        "placeholder": "",
+        "start": 1,
+        "end": 10,
+        "task": {
+          "rename": ""
+        },
+        "push_to": [
+          "free"
+        ]
+      },
+      {
+        "enable": true,
+        "url": "https://clashnode.org/free/",
+        "include": "",
+        "exclude": "",
+        "paged": true,
+        "placeholder": "",
+        "start": 1,
+        "end": 10,
+        "task": {
+          "rename": ""
+        },
+        "push_to": [
+          "free"
+        ]
+      }
+    ],
+    "google": {
+      "enable": false
+    },
+    "yandex": {
+      "enable": false
+    },
+    "twitter": {
+      "enable": false,
+      "users": {}
+    }
+  },
+  "groups": {
+    "free": {
+      "emoji": true,
+      "list_only": false,
+      "targets": {
+        "clash": "free-clash"
+      },
+      "regularize": {
+        "enable": true,
+        "locate": true,
+        "residential": true,
+        "digits": 2
+      }
+    }
+  },
+  "storage": {
+    "engine": "gist",
+    "base": "",
+    "domain": "",
+    "items": {
+      "free-clash": {
+        "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa",
+        "filename": "clash.yaml"
+      }
+    },
+    "token": ""
+  },
+  "update": {},
+  "delay": 4000
+}
