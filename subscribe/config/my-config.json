@@ -570,7 +570,7 @@
     },
     "github": {
       "enable": true,
-      "pages": 10,
+      "pages": 5,
       "push_to": [
         "free"
       ],
@@ -751,7 +751,8 @@
   },
   "update": {
     "enable": true,
-    "item": { "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa", "filename": "crawled-subs.txt" }
+    "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa",
+    "filename": "crawled-subs.txt"
   },
   "delay": 4000
 }
