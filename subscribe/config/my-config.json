@@ -737,15 +737,18 @@
     "items": {
       "free-clash": {
         "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa",
-        "filename": "clash.yaml"
+        "filename": "clash.yaml",
+        "username": "Mashed-P0TAT0"
       },
       "crawledsubs": {
         "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa",
-        "filename": "crawled-subs.txt"
+        "filename": "crawled-subs.txt",
+        "username": "Mashed-P0TAT0"
       },
       "crawledproxies": {
         "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa",
-        "filename": "crawled-proxies.txt"
+        "filename": "crawled-proxies.txt",
+        "username": "Mashed-P0TAT0"
       }
     }
   },
