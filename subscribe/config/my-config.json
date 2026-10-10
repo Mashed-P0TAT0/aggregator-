@@ -557,7 +557,7 @@
   "crawl": {
     "enable": true,
     "exclude": "",
-    "max_fails": 5,
+    "max_fails": 10,
     "include_nodes": true,
     "persist": {
       "subscribe": "crawledsubs",
@@ -749,6 +749,9 @@
       }
     }
   },
-  "update": {},
+  "update": {
+    "enable": true,
+    "item": { "gist_id": "b7a8dc969b70fe0ba16666da7a78f9aa", "filename": "crawled-subs.txt" }
+  },
   "delay": 4000
 }
